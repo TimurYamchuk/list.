@@ -1,15 +1,15 @@
 ﻿namespace PersonLibrary
 {
-    public class Person
+    public class Student
     {
         public string Name { get; set; } = string.Empty;
         public string Surname { get; set; } = string.Empty;
         public string Phone { get; set; } = string.Empty;
         public int Age { get; set; }
 
-        public Person() { }
+        public Student() { }
 
-        public Person(string name, string surname, string phone, int age)
+        public Student(string name, string surname, string phone, int age)
         {
             Name = name;
             Surname = surname;
